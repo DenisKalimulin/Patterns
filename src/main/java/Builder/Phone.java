@@ -1,6 +1,4 @@
-/*
-Builder
- */
+package Builder;
 
 public class Phone {
     private final String brand;
@@ -20,7 +18,7 @@ public class Phone {
 
     @Override
     public String toString() {
-        return "Phone{" +
+        return "Builder.Phone{" +
                 "brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
                 ", OS='" + OS + '\'' +

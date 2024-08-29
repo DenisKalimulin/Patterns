@@ -1,2 +1,5 @@
-package Prototype;public interface Prototype {
+package Prototype;
+
+public interface Prototype {
+    Prototype clone();
 }

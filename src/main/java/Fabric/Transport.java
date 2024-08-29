@@ -1,2 +1,5 @@
-package Fabric;public interface Transport {
+package Fabric;
+
+public interface Transport {
+    void doSomething();
 }
